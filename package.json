@@ -1,0 +1,14 @@
+{
+	"name": "name",
+	"description": "description",
+	"authors": "author",
+	"version": "1.0.0",
+	"main": "pathToMain",
+	"dependencies": {},
+	"devDependencies": {
+		"nodemon": "^2.0.12"
+	},
+	"scripts": {
+		"start": "nodemon bot.py"
+	}
+}
