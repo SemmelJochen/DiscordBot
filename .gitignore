@@ -3,6 +3,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,dotenv
 
+### JS ###
+node_modules/
+env/
+
 ### dotenv ###
 .env
 
@@ -13,7 +17,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

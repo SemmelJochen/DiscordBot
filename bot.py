@@ -7,12 +7,13 @@ Customized by SemmelJochen
 Requirements:
 
 Python 3.5+
-pip install -U discord.py pynacl youtube-dl
+pip install -U discord.py pynacl youtube-dl python_dotenv
 
 You also need FFmpeg in your PATH environment variable or the FFmpeg.exe binary in your bot's directory on Windows.
 """
-
+ 
 import os
+import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 from cogs import audio_cog
