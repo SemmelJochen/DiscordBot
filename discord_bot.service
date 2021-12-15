@@ -1,3 +1,8 @@
+[Unit]
+Description=Discord_Bot_Service
+Wants=network-online.target
+After=network-online.target
+
 [Service]
 WorkingDirectory=/home/pi/Desktop/DiscordBot/
 ExecStart=npm start
@@ -8,5 +13,6 @@ SyslogIdentifier=propanel
 User=root
 Group=root
 Environment=NODE_ENV=prod
+
 [Install]
 WantedBy=multi-user.target
