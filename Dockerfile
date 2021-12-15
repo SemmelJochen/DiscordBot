@@ -18,7 +18,6 @@ COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
 
-ENV DISCORD_TOKEN=NzAxNDA0NDc3MDA1MjM0MTk4.Xpw_0g.ElgnYpR9Klo7xzRVHPXy4n3ruRg
 #CMD instruction should be used to run the software
 #contained by your image, along with any arguments.
 
